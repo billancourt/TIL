@@ -14,19 +14,17 @@
 > git init : git initialize, 로컬 저장소 설정(초기화)
 
 > git add : Working Directory에서 변경 사항이 있는 파일을 Staging Area에 추가
-> > git add . : 같은 Working Directory 내 여러 파일들을 한번에 전부 Staging Area에 추가
+  >> git add . : 같은 Working Directory 내 여러 파일들을 한번에 전부 Staging Area에 추가
 
 > git commit -m "" : Staging Area에 있는 파일들을 저장소에 기록, 해당 시점의 버전을 생성하고 변경 이력을 남기는 것
 
 > git status : git의 현재 상태 확인
 
 > git log : git의 commit history 조회
-
-> > git log --oneline : git log를 한 줄로 조회
+  >> git log --oneline : git log를 한 줄로 조회
 
 > git config : git에서의 username, email 등의 설정 기능
-
-> > git config --global -l : git global 설정 정보 조회
+  >> git config --global -l : git global 설정 정보 조회
 
 > git remote add origin remote_repo_url : 로컬 저장소에 원격 저장소 주소 추가(이때 origin은 원격 저장소의 별칭이며 수정 가능)
 
