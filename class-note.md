@@ -5,12 +5,12 @@
 
 이전 버전과의 변경 사항 비교
 
-## Git의 3가지 영역
+### Git의 3가지 영역
 1. Working Directory 
 2. Staging Area
 3. Repository
 
-## Git 명령어
+### Git 명령어
 > git init : git initialize, 로컬 저장소 설정(초기화)
 
 > git add : Working Directory에서 변경 사항이 있는 파일을 Staging Area에 추가
@@ -40,13 +40,13 @@
 
 > git remote rm remote_repo_name(이 경우 origin) : 현재 로컬 저장소에 등록되어 있는 원격 저장소 삭제
 
-## 주의사항
+### 주의사항
 1. git 저장소 안에 또다른 git 저장소는 존재할 수 없음
   Desktop에서 git init 선언을 했을 때의 해결책 : git ls -a (all option) → 파일명이 . 으로 시작하는 숨김 파일을 찾아서 git rm -r file_name
 2. git clone 이후 git init 선언 불필요
 3. 로컬에서 변경해도 push하지 않으면 원격 저장소에는 저장되지 않음
 
-## README.md
+### README.md
 프로젝트에 대한 설명, 사용 방법, 문서화된 정보 등을 포함하는 역할
 
 Markdown 형식으로 작성되며, 프로젝트의 사용자, 개발자, 혹은 기여자들에게 프로젝트에 대한 전반적인 이해와 활용 방법을 제공하는 데 사용
