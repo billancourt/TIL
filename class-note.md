@@ -40,7 +40,8 @@
 
 ### 주의사항
 1. git 저장소 안에 또다른 git 저장소는 존재할 수 없음
-  Desktop에서 git init 선언을 했을 때의 해결책 : git ls -a (all option) → 파일명이 . 으로 시작하는 숨김 파일을 찾아서 git rm -r file_name
+   
+   Desktop에서 git init 선언을 했을 때의 해결책 : git ls -a (all option) → 파일명이 . 으로 시작하는 숨김 파일을 찾아서 git rm -r file_name
 2. git clone 이후 git init 선언 불필요
 3. 로컬에서 변경해도 push하지 않으면 원격 저장소에는 저장되지 않음
 
